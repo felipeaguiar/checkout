@@ -11,5 +11,7 @@ public interface OrderService {
     List<Order> list();
 
     Order create(Order order);
+
+    void checkout(Long id); 
     
 }
